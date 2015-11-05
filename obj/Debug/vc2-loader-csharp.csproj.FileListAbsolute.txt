@@ -1,0 +1,9 @@
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\bin\Debug\vc2-loader-csharp.exe.config
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\bin\Debug\vc2-loader-csharp.exe
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\bin\Debug\vc2-loader-csharp.pdb
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\obj\Debug\vc2_loader_csharp.frmMain.resources
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\obj\Debug\vc2_loader_csharp.Properties.Resources.resources
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\obj\Debug\vc2_loader_csharp.UserMenu.resources
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\obj\Debug\vc2-loader-csharp.csproj.GenerateResource.Cache
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\obj\Debug\vc2-loader-csharp.exe
+C:\Users\Serabass\documents\visual studio 2015\Projects\vc2-loader-csharp\vc2-loader-csharp\obj\Debug\vc2-loader-csharp.pdb
