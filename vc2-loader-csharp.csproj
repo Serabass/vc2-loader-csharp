@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Entity.Designer.cs">
+      <DependentUpon>Entity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,12 +70,27 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="SocialLink.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SocialLink.Designer.cs">
+      <DependentUpon>SocialLink.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UserMenu.Designer.cs">
       <DependentUpon>UserMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Workspace.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Workspace.Designer.cs">
+      <DependentUpon>Workspace.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Entity.resx">
+      <DependentUpon>Entity.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,8 +103,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SocialLink.resx">
+      <DependentUpon>SocialLink.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserMenu.resx">
       <DependentUpon>UserMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Workspace.resx">
+      <DependentUpon>Workspace.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="helveticaneuecyr-thin.otf" />
     <None Include="Properties\Settings.settings">

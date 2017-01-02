@@ -37,8 +37,6 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "UserMenu";
             this.Text = "UserMenu";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UserMenu_FormClosing);
-            this.Shown += new System.EventHandler(this.UserMenu_Shown);
             this.ResumeLayout(false);
 
         }
